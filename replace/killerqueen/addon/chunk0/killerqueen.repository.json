@@ -1,0 +1,14 @@
+{
+	"68e26e5e-9f3e-4fd2-9864-3443fbd12610": {
+		"ID_": "68e26e5e-9f3e-4fd2-9864-3443fbd12610",
+		"CommonName": "CHAR_Global_Hero_Killer_Queen_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_killer_queen.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_KILLER_QUEEN"
+	}
+}

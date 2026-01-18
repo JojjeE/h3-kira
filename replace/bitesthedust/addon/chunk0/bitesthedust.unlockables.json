@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_BITES_THE_DUST": {
+		"Id": "TOKEN_OUTFIT_HERO_BITES_THE_DUST",
+		"Guid": "2f34419b-058c-4831-9841-c8c36ef0834a",
+		"Type": "disguise",
+		"Subtype": "themed",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "e14fef7a-51d9-41e9-a05f-dd26684949b9",
+			"OrderIndex": 3
+		},
+		"Rarity": "common"
+	}
+}

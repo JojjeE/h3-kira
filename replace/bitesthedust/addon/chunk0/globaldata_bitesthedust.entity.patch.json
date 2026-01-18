@@ -1,0 +1,171 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe59424d448698",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Bites_The_Dust_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_LEATHER"
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "e14fef7a-51d9-41e9-a05f-dd26684949b9"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "CHAR_Global_Hero_Bites_The_Dust_M"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Bites The Dust"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_47STARTCLASSY"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_global_hero_bites_the_dust_m_name_e14fef7a-51d9-41e9-a05f-dd26684949b9.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_global_hero_bites_the_dust_m_desc_e14fef7a-51d9-41e9-a05f-dd26684949b9.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafed4fca5f0b271"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed4fca5f0b271",
+				{
+					"parent": "cafe59424d448698",
+					"name": "CHARSET_Agent47_Global_Hero_Bites_The_Dust",
+					"factory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bites_the_dust.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bites_the_dust.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee6776a795a51",
+				{
+					"parent": "cafe59424d448698",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe59424d448698"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7ff42030adc4",
+				{
+					"parent": "cafe59424d448698",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe59424d448698"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe005bcefd73aa",
+				{
+					"parent": "cafe59424d448698",
+					"name": "Prof_Hero_Black_Suit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_black_suit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_black_suit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe59424d448698"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafecb3413633483",
+				{
+					"parent": "cafe59424d448698",
+					"name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe59424d448698"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb2f9de83e370",
+				{
+					"parent": "cafe59424d448698",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe59424d448698"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

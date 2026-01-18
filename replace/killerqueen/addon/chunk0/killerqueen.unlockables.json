@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_KILLER_QUEEN": {
+		"Id": "TOKEN_OUTFIT_HERO_KILLER_QUEEN",
+		"Guid": "d0ba8881-6e8a-47cc-9917-875008b2fb14",
+		"Type": "disguise",
+		"Subtype": "themed",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "68e26e5e-9f3e-4fd2-9864-3443fbd12610",
+			"OrderIndex": 1
+		},
+		"Rarity": "common"
+	}
+}

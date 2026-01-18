@@ -1,0 +1,14 @@
+{
+	"66314638-5be7-44f8-bae1-4e715696beba": {
+		"ID_": "66314638-5be7-44f8-bae1-4e715696beba",
+		"CommonName": "CHAR_Global_Hero_Sheer_Heart_Attack_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_sheer_heart_attack.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK"
+	}
+}

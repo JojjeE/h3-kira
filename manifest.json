@@ -1,9 +1,1687 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "Jojje.KiraYoshikage",
+	"name": "The Kira Yoshikage Wardrobe",
+	"description": "Three different colorways of Kira Yoshikage's outfits.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.33.26",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"contentFolders": ["base/all"],
+	"options": [
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Don't install",
+			"type": "select",
+			"tooltip": "Don't install Killer Queen.",
+			"enabledByDefault": false,
+			"image": "blobs/killerqueen/addon/images/unlockables_override/47_Outfits_killer_queen.jpg"
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/addon"],
+			"blobsFolders": ["blobs/killerqueen/addon"],
+			"localisedLines": {
+				"00E8C11D31066FC7": "UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME",
+				"00A10A124832D692": "UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+				},
+				"japanese": {
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_NAME": "Killer Queen",
+					"UI_TOKEN_OUTFIT_HERO_KILLER_QUEEN_DESC": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。"
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/bangkok"],
+			"blobsFolders": ["blobs/killerqueen/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+						"4086875141": "Killer Queen"
+					},
+					"french": {
+						"2741280242": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+						"4086875141": "Killer Queen"
+					},
+					"italian": {
+						"2741280242": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+						"4086875141": "Killer Queen"
+					},
+					"german": {
+						"2741280242": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+						"4086875141": "Killer Queen"
+					},
+					"spanish": {
+						"2741280242": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas.",
+						"4086875141": "Killer Queen"
+					},
+					"russian": {
+						"2741280242": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+						"4086875141": "Killer Queen"
+					},
+					"japanese": {
+						"2741280242": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"4086875141": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/sapienza"],
+			"blobsFolders": ["blobs/killerqueen/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+						"3648979387": "Killer Queen"
+					},
+					"french": {
+						"3346035357": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+						"3648979387": "Killer Queen"
+					},
+					"italian": {
+						"3346035357": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+						"3648979387": "Killer Queen"
+					},
+					"german": {
+						"3346035357": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+						"3648979387": "Killer Queen"
+					},
+					"spanish": {
+						"3346035357": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas.",
+						"3648979387": "Killer Queen"
+					},
+					"russian": {
+						"3346035357": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+						"3648979387": "Killer Queen"
+					},
+					"japanese": {
+						"3346035357": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"3648979387": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/miami"],
+			"blobsFolders": ["blobs/killerqueen/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Killer Queen",
+						"3175901226": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"1774659088": "Killer Queen",
+						"3175901226": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"1774659088": "Killer Queen",
+						"3175901226": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"1774659088": "Killer Queen",
+						"3175901226": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"1774659088": "Killer Queen",
+						"3175901226": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"1774659088": "Killer Queen",
+						"3175901226": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"3175901226": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"1774659088": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/sanfortuna"],
+			"blobsFolders": ["blobs/killerqueen/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Killer Queen",
+						"3533044117": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"2978719530": "Killer Queen",
+						"3533044117": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"2978719530": "Killer Queen",
+						"3533044117": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"2978719530": "Killer Queen",
+						"3533044117": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"2978719530": "Killer Queen",
+						"3533044117": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"2978719530": "Killer Queen",
+						"3533044117": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"3533044117": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"2978719530": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/summersuave"],
+			"blobsFolders": ["blobs/killerqueen/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Killer Queen",
+						"2101382595": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"134957393": "Killer Queen",
+						"2101382595": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"134957393": "Killer Queen",
+						"2101382595": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"134957393": "Killer Queen",
+						"2101382595": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"134957393": "Killer Queen",
+						"2101382595": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"134957393": "Killer Queen",
+						"2101382595": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"2101382595": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"134957393": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/summersightseeing"],
+			"blobsFolders": ["blobs/killerqueen/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+						"2814457931": "Killer Queen"
+					},
+					"french": {
+						"2627471231": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+						"2814457931": "Killer Queen"
+					},
+					"italian": {
+						"2627471231": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+						"2814457931": "Killer Queen"
+					},
+					"german": {
+						"2627471231": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+						"2814457931": "Killer Queen"
+					},
+					"spanish": {
+						"2627471231": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas.",
+						"2814457931": "Killer Queen"
+					},
+					"russian": {
+						"2627471231": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+						"2814457931": "Killer Queen"
+					},
+					"japanese": {
+						"2627471231": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"2814457931": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/casualundercover"],
+			"blobsFolders": ["blobs/killerqueen/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Killer Queen",
+						"3635577953": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"2052724919": "Killer Queen",
+						"3635577953": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"2052724919": "Killer Queen",
+						"3635577953": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"2052724919": "Killer Queen",
+						"3635577953": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"2052724919": "Killer Queen",
+						"3635577953": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"2052724919": "Killer Queen",
+						"3635577953": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"3635577953": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"2052724919": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/midnightblack"],
+			"blobsFolders": ["blobs/killerqueen/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+						"2762453674": "Killer Queen"
+					},
+					"french": {
+						"972885031": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+						"2762453674": "Killer Queen"
+					},
+					"italian": {
+						"972885031": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+						"2762453674": "Killer Queen"
+					},
+					"german": {
+						"972885031": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+						"2762453674": "Killer Queen"
+					},
+					"spanish": {
+						"972885031": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas.",
+						"2762453674": "Killer Queen"
+					},
+					"russian": {
+						"972885031": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+						"2762453674": "Killer Queen"
+					},
+					"japanese": {
+						"972885031": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"2762453674": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/marrakesh"],
+			"blobsFolders": ["blobs/killerqueen/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Killer Queen",
+						"4241939803": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"1490534793": "Killer Queen",
+						"4241939803": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"1490534793": "Killer Queen",
+						"4241939803": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"1490534793": "Killer Queen",
+						"4241939803": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"1490534793": "Killer Queen",
+						"4241939803": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"1490534793": "Killer Queen",
+						"4241939803": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"4241939803": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"1490534793": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/tropicalsuit"],
+			"blobsFolders": ["blobs/killerqueen/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+						"2347383834": "Killer Queen"
+					},
+					"french": {
+						"2053833950": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+						"2347383834": "Killer Queen"
+					},
+					"italian": {
+						"2053833950": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+						"2347383834": "Killer Queen"
+					},
+					"german": {
+						"2053833950": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+						"2347383834": "Killer Queen"
+					},
+					"spanish": {
+						"2053833950": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas.",
+						"2347383834": "Killer Queen"
+					},
+					"russian": {
+						"2053833950": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+						"2347383834": "Killer Queen"
+					},
+					"japanese": {
+						"2053833950": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"2347383834": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/smartcasual"],
+			"blobsFolders": ["blobs/killerqueen/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Killer Queen",
+						"678625422": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"252086724": "Killer Queen",
+						"678625422": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"252086724": "Killer Queen",
+						"678625422": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"252086724": "Killer Queen",
+						"678625422": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"252086724": "Killer Queen",
+						"678625422": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"252086724": "Killer Queen",
+						"678625422": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"678625422": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"252086724": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/raver"],
+			"blobsFolders": ["blobs/killerqueen/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Killer Queen",
+						"4079878924": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included."
+					},
+					"french": {
+						"3362995256": "Killer Queen",
+						"4079878924": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus."
+					},
+					"italian": {
+						"3362995256": "Killer Queen",
+						"4079878924": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate."
+					},
+					"german": {
+						"3362995256": "Killer Queen",
+						"4079878924": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten."
+					},
+					"spanish": {
+						"3362995256": "Killer Queen",
+						"4079878924": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+					},
+					"russian": {
+						"3362995256": "Killer Queen",
+						"4079878924": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят."
+					},
+					"japanese": {
+						"4079878924": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"3362995256": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Killer Queen - Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["base/killerqueen", "replace/killerqueen/luckyducky"],
+			"blobsFolders": ["blobs/killerqueen/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+						"2760943898": "Killer Queen"
+					},
+					"french": {
+						"2681050670": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+						"2760943898": "Killer Queen"
+					},
+					"italian": {
+						"2681050670": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+						"2760943898": "Killer Queen"
+					},
+					"german": {
+						"2681050670": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+						"2760943898": "Killer Queen"
+					},
+					"spanish": {
+						"2681050670": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas.",
+						"2760943898": "Killer Queen"
+					},
+					"russian": {
+						"2681050670": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+						"2760943898": "Killer Queen"
+					},
+					"japanese": {
+						"2681050670": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+						"2760943898": "Killer Queen"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Don't install",
+			"type": "select",
+			"tooltip": "Don't install Sheer Heart Attack.",
+			"enabledByDefault": false,
+			"image": "blobs/sheerheartattack/addon/images/unlockables_override/47_Outfits_sheer_heart_attack.jpg"
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/addon"],
+			"blobsFolders": ["blobs/sheerheartattack/addon"],
+			"localisedLines": {
+				"00AB6833F7259C4D": "UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME",
+				"003DA77473183CE6": "UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+				},
+				"japanese": {
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_NAME": "Sheer Heart Attack",
+					"UI_TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK_DESC": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。"
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/bangkok"],
+			"blobsFolders": ["blobs/sheerheartattack/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+						"4086875141": "Sheer Heart Attack"
+					},
+					"french": {
+						"2741280242": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+						"4086875141": "Sheer Heart Attack"
+					},
+					"italian": {
+						"2741280242": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+						"4086875141": "Sheer Heart Attack"
+					},
+					"german": {
+						"2741280242": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+						"4086875141": "Sheer Heart Attack"
+					},
+					"spanish": {
+						"2741280242": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña.",
+						"4086875141": "Sheer Heart Attack"
+					},
+					"russian": {
+						"2741280242": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+						"4086875141": "Sheer Heart Attack"
+					},
+					"japanese": {
+						"2741280242": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"4086875141": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/sapienza"],
+			"blobsFolders": ["blobs/sheerheartattack/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+						"3648979387": "Sheer Heart Attack"
+					},
+					"french": {
+						"3346035357": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+						"3648979387": "Sheer Heart Attack"
+					},
+					"italian": {
+						"3346035357": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+						"3648979387": "Sheer Heart Attack"
+					},
+					"german": {
+						"3346035357": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+						"3648979387": "Sheer Heart Attack"
+					},
+					"spanish": {
+						"3346035357": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña.",
+						"3648979387": "Sheer Heart Attack"
+					},
+					"russian": {
+						"3346035357": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+						"3648979387": "Sheer Heart Attack"
+					},
+					"japanese": {
+						"3346035357": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"3648979387": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/miami"],
+			"blobsFolders": ["blobs/sheerheartattack/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Sheer Heart Attack",
+						"3175901226": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"1774659088": "Sheer Heart Attack",
+						"3175901226": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"1774659088": "Sheer Heart Attack",
+						"3175901226": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"1774659088": "Sheer Heart Attack",
+						"3175901226": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"1774659088": "Sheer Heart Attack",
+						"3175901226": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"1774659088": "Sheer Heart Attack",
+						"3175901226": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"3175901226": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"1774659088": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/sanfortuna"],
+			"blobsFolders": ["blobs/sheerheartattack/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Sheer Heart Attack",
+						"3533044117": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"2978719530": "Sheer Heart Attack",
+						"3533044117": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"2978719530": "Sheer Heart Attack",
+						"3533044117": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"2978719530": "Sheer Heart Attack",
+						"3533044117": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"2978719530": "Sheer Heart Attack",
+						"3533044117": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"2978719530": "Sheer Heart Attack",
+						"3533044117": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"3533044117": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"2978719530": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/summersuave"],
+			"blobsFolders": ["blobs/sheerheartattack/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Sheer Heart Attack",
+						"2101382595": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"134957393": "Sheer Heart Attack",
+						"2101382595": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"134957393": "Sheer Heart Attack",
+						"2101382595": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"134957393": "Sheer Heart Attack",
+						"2101382595": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"134957393": "Sheer Heart Attack",
+						"2101382595": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"134957393": "Sheer Heart Attack",
+						"2101382595": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"2101382595": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"134957393": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/summersightseeing"],
+			"blobsFolders": ["blobs/sheerheartattack/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+						"2814457931": "Sheer Heart Attack"
+					},
+					"french": {
+						"2627471231": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+						"2814457931": "Sheer Heart Attack"
+					},
+					"italian": {
+						"2627471231": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+						"2814457931": "Sheer Heart Attack"
+					},
+					"german": {
+						"2627471231": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+						"2814457931": "Sheer Heart Attack"
+					},
+					"spanish": {
+						"2627471231": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña.",
+						"2814457931": "Sheer Heart Attack"
+					},
+					"russian": {
+						"2627471231": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+						"2814457931": "Sheer Heart Attack"
+					},
+					"japanese": {
+						"2627471231": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"2814457931": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/casualundercover"],
+			"blobsFolders": ["blobs/sheerheartattack/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Sheer Heart Attack",
+						"3635577953": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"2052724919": "Sheer Heart Attack",
+						"3635577953": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"2052724919": "Sheer Heart Attack",
+						"3635577953": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"2052724919": "Sheer Heart Attack",
+						"3635577953": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"2052724919": "Sheer Heart Attack",
+						"3635577953": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"2052724919": "Sheer Heart Attack",
+						"3635577953": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"3635577953": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"2052724919": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/midnightblack"],
+			"blobsFolders": ["blobs/sheerheartattack/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+						"2762453674": "Sheer Heart Attack"
+					},
+					"french": {
+						"972885031": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+						"2762453674": "Sheer Heart Attack"
+					},
+					"italian": {
+						"972885031": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+						"2762453674": "Sheer Heart Attack"
+					},
+					"german": {
+						"972885031": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+						"2762453674": "Sheer Heart Attack"
+					},
+					"spanish": {
+						"972885031": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña.",
+						"2762453674": "Sheer Heart Attack"
+					},
+					"russian": {
+						"972885031": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+						"2762453674": "Sheer Heart Attack"
+					},
+					"japanese": {
+						"972885031": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"2762453674": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/marrakesh"],
+			"blobsFolders": ["blobs/sheerheartattack/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Sheer Heart Attack",
+						"4241939803": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"1490534793": "Sheer Heart Attack",
+						"4241939803": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"1490534793": "Sheer Heart Attack",
+						"4241939803": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"1490534793": "Sheer Heart Attack",
+						"4241939803": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"1490534793": "Sheer Heart Attack",
+						"4241939803": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"1490534793": "Sheer Heart Attack",
+						"4241939803": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"4241939803": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"1490534793": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/tropicalsuit"],
+			"blobsFolders": ["blobs/sheerheartattack/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+						"2347383834": "Sheer Heart Attack"
+					},
+					"french": {
+						"2053833950": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+						"2347383834": "Sheer Heart Attack"
+					},
+					"italian": {
+						"2053833950": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+						"2347383834": "Sheer Heart Attack"
+					},
+					"german": {
+						"2053833950": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+						"2347383834": "Sheer Heart Attack"
+					},
+					"spanish": {
+						"2053833950": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña.",
+						"2347383834": "Sheer Heart Attack"
+					},
+					"russian": {
+						"2053833950": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+						"2347383834": "Sheer Heart Attack"
+					},
+					"japanese": {
+						"2053833950": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"2347383834": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/smartcasual"],
+			"blobsFolders": ["blobs/sheerheartattack/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Sheer Heart Attack",
+						"678625422": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"252086724": "Sheer Heart Attack",
+						"678625422": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"252086724": "Sheer Heart Attack",
+						"678625422": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"252086724": "Sheer Heart Attack",
+						"678625422": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"252086724": "Sheer Heart Attack",
+						"678625422": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"252086724": "Sheer Heart Attack",
+						"678625422": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"678625422": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"252086724": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/raver"],
+			"blobsFolders": ["blobs/sheerheartattack/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Sheer Heart Attack",
+						"4079878924": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town."
+					},
+					"french": {
+						"3362995256": "Sheer Heart Attack",
+						"4079878924": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre."
+					},
+					"italian": {
+						"3362995256": "Sheer Heart Attack",
+						"4079878924": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra."
+					},
+					"german": {
+						"3362995256": "Sheer Heart Attack",
+						"4079878924": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen."
+					},
+					"spanish": {
+						"3362995256": "Sheer Heart Attack",
+						"4079878924": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+					},
+					"russian": {
+						"3362995256": "Sheer Heart Attack",
+						"4079878924": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город."
+					},
+					"japanese": {
+						"4079878924": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"3362995256": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+		{
+			"group": "Sheer Heart Attack - Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["base/sheerheartattack", "replace/sheerheartattack/luckyducky"],
+			"blobsFolders": ["blobs/sheerheartattack/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+						"2760943898": "Sheer Heart Attack"
+					},
+					"french": {
+						"2681050670": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+						"2760943898": "Sheer Heart Attack"
+					},
+					"italian": {
+						"2681050670": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+						"2760943898": "Sheer Heart Attack"
+					},
+					"german": {
+						"2681050670": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+						"2760943898": "Sheer Heart Attack"
+					},
+					"spanish": {
+						"2681050670": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña.",
+						"2760943898": "Sheer Heart Attack"
+					},
+					"russian": {
+						"2681050670": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+						"2760943898": "Sheer Heart Attack"
+					},
+					"japanese": {
+						"2681050670": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+						"2760943898": "Sheer Heart Attack"
+					}
+				}
+			}
+		},
+
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Don't install",
+			"type": "select",
+			"tooltip": "Don't install Bites The Dust.",
+			"enabledByDefault": false,
+			"image": "blobs/bitesthedust/addon/images/unlockables_override/47_Outfits_bites_the_dust.jpg"
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/addon"],
+			"blobsFolders": ["blobs/bitesthedust/addon"],
+			"localisedLines": {
+				"00C06249BB8DC487": "UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME",
+				"00FBDAE95D9D981A": "UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+				},
+				"japanese": {
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME": "Bites The Dust",
+					"UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。"
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/bangkok"],
+			"blobsFolders": ["blobs/bitesthedust/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+						"4086875141": "Bites The Dust"
+					},
+					"french": {
+						"2741280242": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+						"4086875141": "Bites The Dust"
+					},
+					"italian": {
+						"2741280242": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+						"4086875141": "Bites The Dust"
+					},
+					"german": {
+						"2741280242": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+						"4086875141": "Bites The Dust"
+					},
+					"spanish": {
+						"2741280242": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego.",
+						"4086875141": "Bites The Dust"
+					},
+					"russian": {
+						"2741280242": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+						"4086875141": "Bites The Dust"
+					},
+					"japanese": {
+						"2741280242": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"4086875141": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/sapienza"],
+			"blobsFolders": ["blobs/bitesthedust/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+						"3648979387": "Bites The Dust"
+					},
+					"french": {
+						"3346035357": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+						"3648979387": "Bites The Dust"
+					},
+					"italian": {
+						"3346035357": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+						"3648979387": "Bites The Dust"
+					},
+					"german": {
+						"3346035357": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+						"3648979387": "Bites The Dust"
+					},
+					"spanish": {
+						"3346035357": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego.",
+						"3648979387": "Bites The Dust"
+					},
+					"russian": {
+						"3346035357": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+						"3648979387": "Bites The Dust"
+					},
+					"japanese": {
+						"3346035357": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"3648979387": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/miami"],
+			"blobsFolders": ["blobs/bitesthedust/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Bites The Dust",
+						"3175901226": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"1774659088": "Bites The Dust",
+						"3175901226": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"1774659088": "Bites The Dust",
+						"3175901226": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"1774659088": "Bites The Dust",
+						"3175901226": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"1774659088": "Bites The Dust",
+						"3175901226": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"1774659088": "Bites The Dust",
+						"3175901226": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"3175901226": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"1774659088": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/sanfortuna"],
+			"blobsFolders": ["blobs/bitesthedust/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Bites The Dust",
+						"3533044117": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"2978719530": "Bites The Dust",
+						"3533044117": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"2978719530": "Bites The Dust",
+						"3533044117": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"2978719530": "Bites The Dust",
+						"3533044117": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"2978719530": "Bites The Dust",
+						"3533044117": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"2978719530": "Bites The Dust",
+						"3533044117": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"3533044117": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"2978719530": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/summersuave"],
+			"blobsFolders": ["blobs/bitesthedust/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Bites The Dust",
+						"2101382595": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"134957393": "Bites The Dust",
+						"2101382595": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"134957393": "Bites The Dust",
+						"2101382595": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"134957393": "Bites The Dust",
+						"2101382595": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"134957393": "Bites The Dust",
+						"2101382595": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"134957393": "Bites The Dust",
+						"2101382595": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"2101382595": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"134957393": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/summersightseeing"],
+			"blobsFolders": ["blobs/bitesthedust/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+						"2814457931": "Bites The Dust"
+					},
+					"french": {
+						"2627471231": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+						"2814457931": "Bites The Dust"
+					},
+					"italian": {
+						"2627471231": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+						"2814457931": "Bites The Dust"
+					},
+					"german": {
+						"2627471231": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+						"2814457931": "Bites The Dust"
+					},
+					"spanish": {
+						"2627471231": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego.",
+						"2814457931": "Bites The Dust"
+					},
+					"russian": {
+						"2627471231": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+						"2814457931": "Bites The Dust"
+					},
+					"japanese": {
+						"2627471231": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"2814457931": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/casualundercover"],
+			"blobsFolders": ["blobs/bitesthedust/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Bites The Dust",
+						"3635577953": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"2052724919": "Bites The Dust",
+						"3635577953": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"2052724919": "Bites The Dust",
+						"3635577953": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"2052724919": "Bites The Dust",
+						"3635577953": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"2052724919": "Bites The Dust",
+						"3635577953": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"2052724919": "Bites The Dust",
+						"3635577953": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"3635577953": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"2052724919": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/midnightblack"],
+			"blobsFolders": ["blobs/bitesthedust/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+						"2762453674": "Bites The Dust"
+					},
+					"french": {
+						"972885031": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+						"2762453674": "Bites The Dust"
+					},
+					"italian": {
+						"972885031": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+						"2762453674": "Bites The Dust"
+					},
+					"german": {
+						"972885031": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+						"2762453674": "Bites The Dust"
+					},
+					"spanish": {
+						"972885031": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego.",
+						"2762453674": "Bites The Dust"
+					},
+					"russian": {
+						"972885031": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+						"2762453674": "Bites The Dust"
+					},
+					"japanese": {
+						"972885031": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"2762453674": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/marrakesh"],
+			"blobsFolders": ["blobs/bitesthedust/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Bites The Dust",
+						"4241939803": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"1490534793": "Bites The Dust",
+						"4241939803": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"1490534793": "Bites The Dust",
+						"4241939803": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"1490534793": "Bites The Dust",
+						"4241939803": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"1490534793": "Bites The Dust",
+						"4241939803": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"1490534793": "Bites The Dust",
+						"4241939803": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"4241939803": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"1490534793": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/tropicalsuit"],
+			"blobsFolders": ["blobs/bitesthedust/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+						"2347383834": "Bites The Dust"
+					},
+					"french": {
+						"2053833950": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+						"2347383834": "Bites The Dust"
+					},
+					"italian": {
+						"2053833950": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+						"2347383834": "Bites The Dust"
+					},
+					"german": {
+						"2053833950": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+						"2347383834": "Bites The Dust"
+					},
+					"spanish": {
+						"2053833950": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego.",
+						"2347383834": "Bites The Dust"
+					},
+					"russian": {
+						"2053833950": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+						"2347383834": "Bites The Dust"
+					},
+					"japanese": {
+						"2053833950": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"2347383834": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/smartcasual"],
+			"blobsFolders": ["blobs/bitesthedust/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Bites The Dust",
+						"678625422": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"252086724": "Bites The Dust",
+						"678625422": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"252086724": "Bites The Dust",
+						"678625422": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"252086724": "Bites The Dust",
+						"678625422": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"252086724": "Bites The Dust",
+						"678625422": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"252086724": "Bites The Dust",
+						"678625422": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"678625422": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"252086724": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/raver"],
+			"blobsFolders": ["blobs/bitesthedust/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Bites The Dust",
+						"4079878924": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game."
+					},
+					"french": {
+						"3362995256": "Bites The Dust",
+						"4079878924": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser."
+					},
+					"italian": {
+						"3362995256": "Bites The Dust",
+						"4079878924": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione."
+					},
+					"german": {
+						"3362995256": "Bites The Dust",
+						"4079878924": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen."
+					},
+					"spanish": {
+						"3362995256": "Bites The Dust",
+						"4079878924": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+					},
+					"russian": {
+						"3362995256": "Bites The Dust",
+						"4079878924": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи."
+					},
+					"japanese": {
+						"4079878924": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"3362995256": "Bites The Dust"
+					}
+				}
+			}
+		},
+		{
+			"group": "Bites The Dust - Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["base/bitesthedust", "replace/bitesthedust/luckyducky"],
+			"blobsFolders": ["blobs/bitesthedust/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+						"2760943898": "Bites The Dust"
+					},
+					"french": {
+						"2681050670": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+						"2760943898": "Bites The Dust"
+					},
+					"italian": {
+						"2681050670": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+						"2760943898": "Bites The Dust"
+					},
+					"german": {
+						"2681050670": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+						"2760943898": "Bites The Dust"
+					},
+					"spanish": {
+						"2681050670": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego.",
+						"2760943898": "Bites The Dust"
+					},
+					"russian": {
+						"2681050670": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+						"2760943898": "Bites The Dust"
+					},
+					"japanese": {
+						"2681050670": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+						"2760943898": "Bites The Dust"
+					}
+				}
+			}
+		}
+	]
 }

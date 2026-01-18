@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK": {
+		"Id": "TOKEN_OUTFIT_HERO_SHEER_HEART_ATTACK",
+		"Guid": "546d3077-af10-4098-9dfe-da4c8b105c8b",
+		"Type": "disguise",
+		"Subtype": "themed",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "66314638-5be7-44f8-bae1-4e715696beba",
+			"OrderIndex": 2
+		},
+		"Rarity": "common"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"e14fef7a-51d9-41e9-a05f-dd26684949b9": {
+		"ID_": "e14fef7a-51d9-41e9-a05f-dd26684949b9",
+		"CommonName": "CHAR_Global_Hero_Bites_The_Dust_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_bites_the_dust.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_BITES_THE_DUST_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_BITES_THE_DUST"
+	}
+}

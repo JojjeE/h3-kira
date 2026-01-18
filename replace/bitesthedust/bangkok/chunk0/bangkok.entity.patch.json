@@ -1,0 +1,35 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"544dda7e8bb53e1f",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bites_the_dust.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"544dda7e8bb53e1f",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bites_the_dust.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48caebf3d8946e7e",
+				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_LEATHER" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48caebf3d8946e7e",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47STARTCLASSY" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}
