@@ -1,0 +1,23 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CB105877-743D-4A3B-BDAD-28A022630306_MARRAKESH_HERO_MARRAKESHSUITANDGLOVES_M_HPA2796_NAME_": {
+			"english": "Sheer Heart Attack",
+			"french": "Sheer Heart Attack",
+			"german": "Sheer Heart Attack",
+			"italian": "Sheer Heart Attack",
+			"japanese": "Sheer Heart Attack",
+			"russian": "Sheer Heart Attack",
+			"spanish": "Sheer Heart Attack"
+		},
+		"CB105877-743D-4A3B-BDAD-28A022630306_MARRAKESH_HERO_MARRAKESHSUITANDGLOVES_M_HPA2796_DESCRIPTION_": {
+			"english": "A crisp white suit with a wine striped shirt. What could be better? Top it off with an iconic tie and you're set to take on a crazy, noisy, bizarre town.",
+			"french": "Un costume blanc impeccable avec une chemise à rayures bordeaux. Quoi de mieux ? Ajoutez-y une cravate emblématique et vous êtes prêt à affronter une ville folle, bruyante et bizarre.",
+			"german": "Ein knackig weißer Anzug mit einem weinroten gestreiften Hemd. Was könnte besser sein? Mit einer kultigen Krawatte als Krönung bist du bereit, dich in eine verrückte, laute, bizarre Stadt zu stürzen.",
+			"italian": "Un elegante abito bianco con una camicia a righe color vino. Cosa c'è di meglio? Completa il look con una cravatta iconica e sarai pronto per affrontare una città folle, rumorosa e bizzarra.",
+			"japanese": "真っ白なスーツにワイン色のストライプシャツ。これ以上ない組み合わせだ。そこに象徴的なネクタイを合わせれば、狂騒と騒音と奇妙な町に立ち向かう準備は万端だ。",
+			"russian": "Белоснежный костюм с рубашкой в винные полоски. Что может быть лучше? Добавьте к этому культовый галстук, и вы готовы покорить этот сумасшедший, шумный и причудливый город.",
+			"spanish": "Un traje blanco impecable con una camisa a rayas color vino. ¿Qué podría ser mejor? Complétalo con una corbata icónica y estarás listo para enfrentarte a una ciudad loca, ruidosa y extraña."
+		}
+	}
+}

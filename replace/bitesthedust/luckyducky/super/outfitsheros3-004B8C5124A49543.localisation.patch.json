@@ -1,0 +1,23 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_GLOBAL_HERO_DUCKYSUIT_M_DESC_7459C8B3-4F09-4D72-BF3F-84BAB1F9A2FF": {
+			"english": "Show them all your overconfidence with a white suit, blue striped shirt and a green patterned tie. No bizarre adventures can knock you off your game.",
+			"french": "Montrez-leur votre confiance en vous avec un costume blanc, une chemise à rayures bleues et une cravate à motifs verts. Aucune aventure bizarre ne pourra vous déstabiliser.",
+			"german": "Zeigen Sie ihnen Ihre Selbstsicherheit mit einem weißen Anzug, einem blau gestreiften Hemd und einer grün gemusterten Krawatte. Keine noch so bizarre Abenteuer können Sie aus der Bahn werfen.",
+			"italian": "Mostra loro tutta la tua sicurezza con un abito bianco, una camicia a righe blu e una cravatta con motivi verdi. Nessuna avventura bizzarra potrà farti perdere la concentrazione.",
+			"japanese": "白いスーツに青のストライプシャツ、緑の柄タイで、あなたの過剰な自信を存分に見せつけろ。どんな奇妙な冒険も、あなたの調子をかき乱すことはできない。",
+			"russian": "Продемонстрируйте свою неуверенность в себе, надев белый костюм, синюю рубашку в полоску и зеленый галстук с узором. Никакие странные приключения не смогут выбить вас из колеи.",
+			"spanish": "Demuestra tu exceso de confianza con un traje blanco, una camisa azul a rayas y una corbata con estampado verde. Ninguna aventura extraña podrá sacarte de tu juego."
+		},
+		"CHAR_REWARD_GLOBAL_HERO_DUCKYSUIT_M_NAME_7459C8B3-4F09-4D72-BF3F-84BAB1F9A2FF": {
+			"english": "Bites The Dust",
+			"french": "Bites The Dust",
+			"german": "Bites The Dust",
+			"italian": "Bites The Dust",
+			"japanese": "Bites The Dust",
+			"russian": "Bites The Dust",
+			"spanish": "Bites The Dust"
+		}
+	}
+}

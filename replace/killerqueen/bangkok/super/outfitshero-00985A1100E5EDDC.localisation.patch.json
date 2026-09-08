@@ -1,0 +1,23 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CD5EB1F1-57BF-41FF-87EE-810A01C1C5BA_BANGKOK_HERO_BANGKOKSUITANDGLOVES_M_HPA2793_DESCRIPTION_": {
+			"english": "With a lovely lavender Valentino suit and cyan striped shirt, this outfit is perfect for the salaryman who just wants to live a peaceful life. Note: No local artisanal sandwich, or severed hands included.",
+			"french": "Avec son élégant costume Valentino couleur lavande et sa chemise à rayures cyan, cette tenue est parfaite pour le salaryman qui souhaite simplement mener une vie paisible. Remarque : aucun sandwich artisanal local ni aucune main coupée ne sont inclus.",
+			"german": "Mit einem hübschen lavendelfarbenen Valentino-Anzug und einem cyanfarbenen gestreiften Hemd ist dieses Outfit perfekt für den Angestellten, der einfach nur ein ruhiges Leben führen möchte. Hinweis: Lokale handwerklich hergestellte Sandwiches oder abgetrennte Hände sind nicht enthalten.",
+			"italian": "Con un delizioso completo Valentino color lavanda e una camicia a righe ciano, questo outfit è perfetto per l'impiegato che desidera solo vivere una vita tranquilla. Nota: non sono inclusi né panini artigianali locali né mani mozzate.",
+			"japanese": "素敵なラベンダー色のヴァレンティノのスーツにシアンのストライプシャツ。平穏な生活を送りたいサラリーマンにぴったりの装いです。※地元の職人手作りサンドイッチや切断された手は付属しません。",
+			"russian": "Этот наряд, состоящий из прекрасного лавандового костюма Валентино и рубашки в голубые полоски, идеально подходит для офисного работника, который просто хочет жить спокойной жизнью. Примечание: местные ремесленные сэндвичи и отрезанные руки в комплект не входят.",
+			"spanish": "Con un precioso traje lavanda de Valentino y una camisa a rayas cian, este conjunto es perfecto para el oficinista que solo quiere llevar una vida tranquila. Nota: No se incluyen sándwiches artesanales locales ni manos cortadas."
+		},
+		"CD5EB1F1-57BF-41FF-87EE-810A01C1C5BA_BANGKOK_HERO_BANGKOKSUITANDGLOVES_M_HPA2793_NAME_": {
+			"english": "Killer Queen",
+			"french": "Killer Queen",
+			"german": "Killer Queen",
+			"italian": "Killer Queen",
+			"japanese": "Killer Queen",
+			"russian": "Killer Queen",
+			"spanish": "Killer Queen"
+		}
+	}
+}
