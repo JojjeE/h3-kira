@@ -56,7 +56,7 @@
 					}
 				},
 				{
-					"id": "kq-casual",
+					"id": "kq-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/killerqueen/bangkok", "base/killerqueen"],
@@ -65,7 +65,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-casual\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-casual\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-bangkok\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-bangkok\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -74,7 +74,7 @@
 					}
 				},
 				{
-					"id": "kq-italian",
+					"id": "kq-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/killerqueen/sapienza", "base/killerqueen"],
@@ -83,7 +83,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-italian\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-italian\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-sapienza\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-sapienza\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -92,7 +92,7 @@
 					}
 				},
 				{
-					"id": "kq-florida",
+					"id": "kq-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": ["replace/killerqueen/miami", "base/killerqueen"],
@@ -101,7 +101,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-florida\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-florida\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-miami\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-miami\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -110,7 +110,7 @@
 					}
 				},
 				{
-					"id": "kq-tourist",
+					"id": "kq-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": ["replace/killerqueen/sanfortuna", "base/killerqueen"],
@@ -119,7 +119,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-tourist\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-tourist\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-sanfortuna\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-sanfortuna\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -128,7 +128,7 @@
 					}
 				},
 				{
-					"id": "kq-suave",
+					"id": "kq-summersuave",
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": ["replace/killerqueen/summersuave", "base/killerqueen"],
@@ -137,7 +137,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-suave\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-suave\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-summersuave\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summersuave\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -146,7 +146,7 @@
 					}
 				},
 				{
-					"id": "kq-sightseeing",
+					"id": "kq-summersightseeing",
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": ["replace/killerqueen/summersightseeing", "base/killerqueen"],
@@ -155,7 +155,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-sightseeing\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-sightseeing\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-summersightseeing\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summersightseeing\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -164,7 +164,7 @@
 					}
 				},
 				{
-					"id": "kq-undercover",
+					"id": "kq-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": ["replace/killerqueen/casualundercover", "base/killerqueen"],
@@ -173,7 +173,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-undercover\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-undercover\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-casualundercover\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-casualundercover\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -200,7 +200,7 @@
 					}
 				},
 				{
-					"id": "kq-summer",
+					"id": "kq-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/killerqueen/marrakesh", "base/killerqueen"],
@@ -209,7 +209,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-summer\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summer\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-marrakesh\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-marrakesh\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -218,7 +218,7 @@
 					}
 				},
 				{
-					"id": "kq-tropical",
+					"id": "kq-tropicalsuit",
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": ["replace/killerqueen/tropicalsuit", "base/killerqueen"],
@@ -227,7 +227,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-tropical\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-tropical\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-tropicalsuit\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-tropicalsuit\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -272,7 +272,7 @@
 					}
 				},
 				{
-					"id": "kq-ducky",
+					"id": "kq-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": ["replace/killerqueen/luckyducky", "base/killerqueen"],
@@ -281,7 +281,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-ducky\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-ducky\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-luckyducky\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-luckyducky\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -337,7 +337,7 @@
 					}
 				},
 				{
-					"id": "sha-casual",
+					"id": "sha-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/bangkok", "base/sheerheartattack"],
@@ -346,7 +346,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-casual\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-casual\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-bangkok\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-bangkok\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -355,7 +355,7 @@
 					}
 				},
 				{
-					"id": "sha-italian",
+					"id": "sha-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/sapienza", "base/sheerheartattack"],
@@ -364,7 +364,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-italian\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-italian\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-sapienza\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-sapienza\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -373,7 +373,7 @@
 					}
 				},
 				{
-					"id": "sha-florida",
+					"id": "sha-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/miami", "base/sheerheartattack"],
@@ -382,7 +382,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-florida\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-florida\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-miami\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-miami\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -391,7 +391,7 @@
 					}
 				},
 				{
-					"id": "sha-tourist",
+					"id": "sha-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/sanfortuna", "base/sheerheartattack"],
@@ -400,7 +400,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-tourist\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-tourist\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-sanfortuna\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-sanfortuna\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -409,7 +409,7 @@
 					}
 				},
 				{
-					"id": "sha-suave",
+					"id": "sha-summersuave",
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/summersuave", "base/sheerheartattack"],
@@ -418,7 +418,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-suave\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-suave\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summersuave\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summersuave\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -427,7 +427,7 @@
 					}
 				},
 				{
-					"id": "sha-sightseeing",
+					"id": "sha-summersightseeing",
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/summersightseeing", "base/sheerheartattack"],
@@ -436,7 +436,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-sightseeing\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-sightseeing\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summersightseeing\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summersightseeing\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -445,7 +445,7 @@
 					}
 				},
 				{
-					"id": "sha-undercover",
+					"id": "sha-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/casualundercover", "base/sheerheartattack"],
@@ -454,7 +454,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-undercover\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-undercover\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-casualundercover\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-casualundercover\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -481,7 +481,7 @@
 					}
 				},
 				{
-					"id": "sha-summer",
+					"id": "sha-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/marrakesh", "base/sheerheartattack"],
@@ -490,7 +490,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summer\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summer\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-marrakesh\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-marrakesh\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -499,7 +499,7 @@
 					}
 				},
 				{
-					"id": "sha-tropical",
+					"id": "sha-tropicalsuit",
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/tropicalsuit", "base/sheerheartattack"],
@@ -508,7 +508,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summer\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-summer\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-tropicalsuit\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-tropicalsuit\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -553,7 +553,7 @@
 					}
 				},
 				{
-					"id": "sha-ducky",
+					"id": "sha-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/luckyducky", "base/sheerheartattack"],
@@ -562,7 +562,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-ducky\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-ducky\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-luckyducky\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"btd\") != Some(\"btd-luckyducky\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -618,7 +618,7 @@
 					}
 				},
 				{
-					"id": "btd-casual",
+					"id": "btd-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/bangkok", "base/bitesthedust"],
@@ -627,7 +627,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-casual\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-casual\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-bangkok\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-bangkok\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -636,7 +636,7 @@
 					}
 				},
 				{
-					"id": "btd-italian",
+					"id": "btd-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/sapienza", "base/bitesthedust"],
@@ -645,7 +645,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-italian\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-italian\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-sapienza\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-sapienza\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -654,7 +654,7 @@
 					}
 				},
 				{
-					"id": "btd-florida",
+					"id": "btd-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/miami", "base/bitesthedust"],
@@ -663,7 +663,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-florida\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-florida\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-miami\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-miami\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -672,7 +672,7 @@
 					}
 				},
 				{
-					"id": "btd-tourist",
+					"id": "btd-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/sanfortuna", "base/bitesthedust"],
@@ -681,7 +681,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-tourist\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-tourist\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-sanfortuna\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-sanfortuna\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -690,7 +690,7 @@
 					}
 				},
 				{
-					"id": "btd-suave",
+					"id": "btd-summersuave",
 					"name": "Summer Suave Suit",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/summersuave", "base/bitesthedust"],
@@ -699,7 +699,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-suave\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-suave\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summersuave\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-summersuave\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -708,7 +708,7 @@
 					}
 				},
 				{
-					"id": "btd-sightseeing",
+					"id": "btd-summersightseeing",
 					"name": "Summer Sightseeing Suit",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/summersightseeing", "base/bitesthedust"],
@@ -717,7 +717,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-sightseeing\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-sightseeing\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summersightseeing\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-summersightseeing\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -726,7 +726,7 @@
 					}
 				},
 				{
-					"id": "btd-undercover",
+					"id": "btd-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/casualundercover", "base/bitesthedust"],
@@ -735,7 +735,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-undercover\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-undercover\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-casualundercover\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-casualundercover\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -762,7 +762,7 @@
 					}
 				},
 				{
-					"id": "btd-summer",
+					"id": "btd-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/marrakesh", "base/bitesthedust"],
@@ -771,7 +771,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-summer\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-summer\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-marrakesh\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-marrakesh\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -780,7 +780,7 @@
 					}
 				},
 				{
-					"id": "btd-tropical",
+					"id": "btd-tropicalsuit",
 					"name": "Tropical Suit",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/tropicalsuit", "base/bitesthedust"],
@@ -789,7 +789,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-tropical\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-tropical\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-tropicalsuit\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-tropicalsuit\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
@@ -834,7 +834,7 @@
 					}
 				},
 				{
-					"id": "btd-ducky",
+					"id": "btd-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/luckyducky", "base/bitesthedust"],
@@ -843,7 +843,7 @@
 					"conditions": {
 						"incompatibleConditions": [
 							{
-								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-ducky\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-ducky\")",
+								"condition": "mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"kq\") != Some(\"kq-luckyducky\") && mod_option(\"Jojje.KiraYoshikage@1.0.0\", \"sha\") != Some(\"sha-luckyducky\")",
 								"explanation": {
 									"english": "This suit replacement is already selected in another option."
 								}
