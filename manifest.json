@@ -24,7 +24,7 @@
 				{
 					"id": "kq-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"image": "blobs/killerqueen/addon/images/unlockables_override/47_Outfits_killer_queen.jpg",
 					"data": {
 						"contentFolders": ["replace/killerqueen/addon", "base/killerqueen"],
@@ -305,7 +305,7 @@
 				{
 					"id": "sha-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"image": "blobs/sheerheartattack/addon/images/unlockables_override/47_Outfits_sheer_heart_attack.jpg",
 					"data": {
 						"contentFolders": ["replace/sheerheartattack/addon", "base/sheerheartattack"],
@@ -586,7 +586,7 @@
 				{
 					"id": "btd-peacock",
 					"name": "Peacock Addon",
-					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"image": "blobs/bitesthedust/addon/images/unlockables_override/47_Outfits_bites_the_dust.jpg",
 					"data": {
 						"contentFolders": ["replace/bitesthedust/addon", "base/bitesthedust"],
